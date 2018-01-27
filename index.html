@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Mafking trophy</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Mafeking Trophy</h1>
+	<nav>
+		<ul>
+			
+			<li>créer une épreuve</li>
+			<li>créer une équipe</li>
+			<li>encoder les résultat</li>
+			<li>classment</li>
+		</ul>
+	</nav>
+	<div id="contenu">
+<!-- creer une epreuve *************************************************-->
+	<div id="epreuves" class="row">
+		<button class="mx-auto" id="nouvelleEpreuve" data-toggle="modal" data-target="#modalEpreuve">Nouvelle épreuve</button>
+		<div class="row col-md-12">
+			<div class="boucle col-md-6" id="boucleA">
+				<h3>boucle A</h3>
+			</div>
+			<div class="boucle col-md-6" id="boucleB">
+				<h3>boucle B</h3>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="modalEpreuve">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">Ajouter une épreuve</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <form name="epreuveFormulaire">
+		      <div class="modal-body">
+		      	<!-- formulaire *********************************************-->
+					<div class="form-group">
+						<label for="nomEpreuve">Nom de l'épreuve</label>
+					    <input type="text" class="form-control" id="nomEpreuve" placeholder="Nom de l'épreuve" name="nomEpreuve">
+					</div>
+					<div class="form-group">
+						<label for="choixBoucle">choix de la boucle</label>
+					    <select class="form-control" id="choixBoucle" name="choixBoucle">
+					      <option>A</option>
+					      <option>B</option>
+					    </select>
+					</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" id="epreuveSave">Save changes</button>
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	
+<!-- creer une equipe *************************************************-->
+
+<!-- resultat *************************************************-->
+
+<!-- classement *************************************************-->
+
+	</div>
+	
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
