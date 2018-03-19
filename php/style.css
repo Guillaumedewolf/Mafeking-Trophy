@@ -1,0 +1,29 @@
+body{
+	margin:0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+#menu-gauche{
+	float: left;
+	height: 100%;
+	width: 20%; 
+}
+
+#contenu-droite{
+	float: right;
+	height: 100%;
+	width: 80%; 
+}
+/*menu*/
+#menuStyle {
+	background-color: #8F9297;	
+}
+/*contenu*/
+h1{
+	text-align: center;
+}
+
+span{
+	padding: 10px;
+}
