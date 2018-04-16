@@ -1,5 +1,5 @@
 # Mafeking-Trophy
 
-##Projet scout
+## Projet scout
 
 Gestions des points pour l'événement
